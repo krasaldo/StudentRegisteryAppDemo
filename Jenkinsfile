@@ -1,10 +1,6 @@
 pipeline{
-    environment {
-        NODE_VERSIONS = '20.x'
-    }
-    tools{
-        nodejs "${NODE_VERSIONS}"
-    }
+    
+
     stages{
         stage('Checkout'){
         steps{
